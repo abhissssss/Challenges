@@ -1,8 +1,10 @@
+package com.abhisheksingh.polymorphismchallenge;
+
 public class Main {
     public static void main(String[] args) {
 
             Movie movie = randomMovie();
-        System.out.println("Movie name ---> " + movie.getName() +"\n" +
+        System.out.println("com.abhisheksingh.polymorphismchallenge.Movie name ---> " + movie.getName() +"\n" +
                              "Plot of the movie ----> " + movie.plot() + "\n");
 //Here how polymorphism works is that the method plot is one , but it has a lot nof different functionalities
 
@@ -40,7 +42,7 @@ class Movie {
 
 class Jaws extends Movie{
     public Jaws() {
-        super("Jaws");
+        super("com.abhisheksingh.polymorphismchallenge.Jaws");
     }
 
     @Override
@@ -82,7 +84,7 @@ class StarWars extends Movie{
 }
 class Fractured extends Movie{
     public Fractured() {
-        super("Fractured");
+        super("com.abhisheksingh.polymorphismchallenge.Fractured");
     }
 
     @Override
