@@ -1,7 +1,7 @@
 package com.abhisheksingh.arraylistchallenge;
 
 public class Contacts {
-    private final String name ;
+    private final String name;
     private final String phoneNumber;
 
     public Contacts(String name, String phoneNumber) {
@@ -14,10 +14,11 @@ public class Contacts {
     }
 
     public String getPhoneNumber() {
+        
         return phoneNumber;
     }
 
-    public static Contacts createContact (String name , String phoneNumber){
-        return new Contacts (name,phoneNumber);
+    public static Contacts createContact(String name, String phoneNumber) {
+        return new Contacts(name, phoneNumber);
     } //factory method
 }

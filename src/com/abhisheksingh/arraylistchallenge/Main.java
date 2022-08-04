@@ -16,28 +16,16 @@ public class Main {
             scanner.nextLine();
 
             switch (action) {
-                case 0:
+                case 0 -> {
                     System.out.println("\nShutting down....");
                     quit = true;
-                    break;
-                case 1:
-                    mobilePhone.printContacts();
-                case 2:
-                    addNewContacts();
-                    break;
-                case 3:
-                    updateContact();
-                    break;
-                case 4:
-                    removeContact();
-                    break;
-                case 5:
-                    queryContact();
-                    break;
-                case 6 :
-                    printActions();
-                    break;
-
+                }
+                case 1 -> mobilePhone.printContacts();
+                case 2 -> addNewContacts();
+                case 3 -> updateContact();
+                case 4 -> removeContact();
+                case 5 -> queryContact();
+                case 6 -> printActions();
             }
         }
     }
@@ -53,7 +41,7 @@ public class Main {
                 1 - to print contacts\s
                 2 - to add new contact\s
                 3 - to update an existing contact\s
-                 4 - to remove an existing contact\s
+                4 - to remove an existing contact\s
                 5 - query if an existing contact exists\s
                 6 - to print a list of available actions\s
                 """);
@@ -68,7 +56,7 @@ public class Main {
         String number = scanner.nextLine();
         Contacts newContact = Contacts.createContact(name, number);
         if (mobilePhone.addNewContact(newContact)) {
-            System.out.println("New contact added successfully " + name + "Phone number : " + number);
+            System.out.println("New contact added successfully " + name + " Phone number : " + number);
         } else {
             System.out.println("Contact already on file");
         }
@@ -102,10 +90,9 @@ public class Main {
             System.out.println("Contact not found .");
             return;
         }
-        if(mobilePhone.removeContact(existingContactRecord)){
+        if (mobilePhone.removeContact(existingContactRecord)) {
             System.out.println("Deleted Successfully");
-        }
-        else {
+        } else {
             System.out.println("Error deleting record");
         }
     }
@@ -118,7 +105,7 @@ public class Main {
             System.out.println("Contact not found .");
             return;
         }
-        System.out.println("Name: " +existingContactRecord.getName() + " phone number is " + existingContactRecord.getPhoneNumber());
+        System.out.println("Name: " + existingContactRecord.getName() + " phone number is " + existingContactRecord.getPhoneNumber());
     }
 }
 
