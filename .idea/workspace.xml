@@ -4,8 +4,6 @@
     <list default="true" id="7f8af8e6-9fe8-4ebd-933e-2d5032e8d08f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/abhisheksingh/arraylistchallenge/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhisheksingh/arraylistchallenge/Contacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/abhisheksingh/arraylistchallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhisheksingh/arraylistchallenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/abhisheksingh/arraylistchallenge/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhisheksingh/arraylistchallenge/MobilePhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,8 @@
       <workItem from="1659451491969" duration="2848000" />
       <workItem from="1659514431422" duration="12532000" />
       <workItem from="1659536561922" duration="21000" />
-      <workItem from="1659606579292" duration="8334000" />
+      <workItem from="1659606579292" duration="10331000" />
+      <workItem from="1659686206613" duration="3803000" />
     </task>
     <servers />
   </component>
